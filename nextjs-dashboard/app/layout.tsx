@@ -1,4 +1,6 @@
+// @ts-ignore: allow side-effect import of global CSS
 import '@/app/ui/global.css';
+// @ts-ignore: allow side-effect import of font CSS
 import { inter } from '@/app/ui/fonts';
 
 export default function RootLayout({
